@@ -40,7 +40,8 @@ class MathUtilsTest {
 
     }
 
-    @Test
+//    @Test
+    @RepeatedTest((3))
     @DisplayName("Testing add method")
     void testAdd() {
 
